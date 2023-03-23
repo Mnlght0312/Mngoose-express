@@ -67,9 +67,9 @@ app.post("/register", async (request, response) => {
   }
 });
 
-// Start the server on port 8090
-app.listen(8090, () => {
-  console.log("Server started on port 8090");
+// Start the server on port 9000
+app.listen(9000, () => {
+  console.log("Server started on port 9000");
 });
 
 app.listen(PORT, () => {

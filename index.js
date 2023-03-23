@@ -67,10 +67,7 @@ app.post("/register", async (request, response) => {
   }
 });
 
-// Start the server on port 9000
-app.listen(9000, () => {
-  console.log("Server started on port 9000");
-});
+// Start the server on port 900
 
 app.listen(PORT, () => {
   console.log(`Express Application is running on http://localhost:${PORT}`);
